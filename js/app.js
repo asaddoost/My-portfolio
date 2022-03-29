@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 /*=============== SERVICES MODAL ===============*/
 const modalViews = document.querySelectorAll('.services-modal');
     modalBtns = document.querySelectorAll('.services-btn');

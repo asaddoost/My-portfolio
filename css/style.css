@@ -370,6 +370,9 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
 }
 
 /* ---------services-modal------- */
+#services {
+    padding-top: 2rem;
+}
 .services-modal {
     position: fixed;
     inset: 0;
