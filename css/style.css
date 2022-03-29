@@ -167,6 +167,9 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
  .main {
      overflow: hidden;
  }
+ #home {
+     position: relative;
+ }
  .home-data {
      margin-top: 2rem;
      flex: 1;
@@ -716,6 +719,7 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
         left: 1.7rem;
     }
     .home-profile {
+        margin-top: 1rem;
         width: 150px;
        height: 180px;
        order: -1;
@@ -743,7 +747,7 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
     }
     /* ----about--- */
     .section {
-        margin: 1rem .5rem;
+        margin: 2rem .5rem 1rem;
     }
     .about-info {
         display: flex;
@@ -757,6 +761,9 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
     }
     .about-img {
         width: 90vw;
+    }
+    .section-subtitle {
+        margin-top: 3rem;
     }
     .about-description {
         font-size: .7rem;
@@ -874,7 +881,9 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
     }
 }
 @media (min-width: 321px) and (max-width: 575px) {
-
+    .section {
+        padding-top: 6rem;
+    }
     .nav-menu {
         left: 0;
         right: 0;
@@ -891,6 +900,9 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
         height: 230px;
         margin-top: -100px;
     }
+    #home {
+        padding-top: 10rem;
+    }
     .home-btn {
         font-size: .7rem;
     }
@@ -899,7 +911,7 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
     }
     .home-social {
         position: absolute;
-        bottom: 150px;
+        bottom: 50px;
     }
     .nav {
         justify-content: center;
@@ -1050,12 +1062,13 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
 }
 
 @media (min-width: 768px) {
-    #home {
+    .section {
+        padding-top: 9rem;
         margin-top: 3rem;
     }
     .home-social {
         position: absolute;
-        margin-top: 100px;
+        bottom: 40px;
     }
     .home-profile {
         width: 220px;
@@ -1271,6 +1284,17 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
     
 }
 @media screen and (min-width: 1200px) {
+    .section {
+        padding: 3rem 1rem;
+        margin: 2rem 1rem;
+    }
+    .section-subtitle {
+        padding-top: 1rem;
+        margin-top: 4rem;
+    }
+    #work {
+        margin-top: 1rem;
+    }
     .home-profile {
         width: 310px;
         height: 360px;
@@ -1282,7 +1306,7 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
         flex-direction: row;
     }
     .home-social {
-        bottom: 200px;
+        bottom: 20px;
     }
     .skills-content {
         width: 350px;
@@ -1314,6 +1338,22 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
     }
     .services-modal-content {
         width: 600px;
+    }
+    .about-description {
+        font-size: 1rem;
+    }
+    .about-subtitle {
+        font-size: .8rem;
+    }
+    .services {
+        margin-top: 4rem;
+    }
+    #contact .section-subtitle {
+        margin-top: 0;
+    }
+    .contact-container {
+        margin-bottom: 3rem;
+        padding-bottom: 1rem;
     }
 
 
