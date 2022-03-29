@@ -43,7 +43,7 @@ let mixerPortfolio = mixitup('.work-container', {
 const linkWork = document.querySelectorAll('.work-item');
 
 function activeWork(){
-    linkWork.forEach(l=> l.classList.remote('active-work') )
+    linkWork.forEach(l=> l.classList.remove('active-work') )
     this.classList.add('active-work')
 }
 linkWork.forEach(l=> l.addEventListener('click', activeWork))
@@ -88,4 +88,17 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
- 
+// ========Scroll Reveal Animation=========
+ScrollReveal().reveal('.home-data', {
+    origin: 'top',
+    distance: '60px',
+    duration: 1500,
+    delay: 400,
+});
+
+ScrollReveal().reveal('.home-social', {
+    origin: 'bottom',
+    distance: '30px',
+    duration: 2500,
+    delay: 400,
+}) ;

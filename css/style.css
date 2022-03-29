@@ -1339,6 +1339,13 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
     .services-modal-content {
         width: 600px;
     }
+    .servisec-modal-description {
+        font-size: 1rem;
+        text-align: initial;
+    }
+    .services-modal-info {
+        font-size: .8rem;
+    }
     .about-description {
         font-size: 1rem;
     }
@@ -1351,9 +1358,13 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
     #contact .section-subtitle {
         margin-top: 0;
     }
+    .section-subtitle {
+        padding-top: 2rem;
+    }
     .contact-container {
         margin-bottom: 3rem;
-        padding-bottom: 1rem;
+        padding-bottom: 3rem;
+
     }
 
 
