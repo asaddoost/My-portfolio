@@ -625,8 +625,6 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
      justify-content: center;
      align-items: center;
 }
-
-}
 .footer-title,
 .footer-link {
     color:var(--body-dark-color);
@@ -663,10 +661,12 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
     font-size: 1rem;
 }
 .footer-copy{
+    white-space: nowrap;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
+    margin: 0 auto;
     text-align: center;
     font-size: var(--font-small);
     opacity: .5;
