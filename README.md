@@ -1,4 +1,4 @@
-  🔥  # Portfolio Website
+ # Portfolio Website
 
 ✨Responsive Portfolio Website
 - Responsive Portfolio Website Using HTML CSS & JavaScript
