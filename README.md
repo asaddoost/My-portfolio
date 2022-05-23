@@ -8,4 +8,5 @@
 
 [▶️ Launch Demo](https://asaddoost.github.io/My-portfolio/)
 
+![preview img](/preview.jpg)
 
