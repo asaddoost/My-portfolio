@@ -463,11 +463,11 @@ background: linear-gradient(180deg, var(--first-color)  10%, var(--box-color)35%
 }
 .work-card {
     background-color: var(--back-color);
-    border-radius: 1rem;
+    border-radius: .5rem;
     padding: 1rem;
 }
 .work-img {
-    border-radius: 1rem;
+    border-radius: .5rem;
     margin-bottom: .75rem;
 }
 .work-title {
